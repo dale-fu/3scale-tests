@@ -21,7 +21,7 @@ objects:
           app: ${LABEL}
       spec:
         containers:
-          - image: quay.io/jsmadis/httpbin:latest
+          - image: suika/httpbin:latest
             imagePullPolicy: IfNotPresent
             name: httpbin
             ports:
